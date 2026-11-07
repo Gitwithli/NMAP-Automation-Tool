@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Thu Nov  5 06:42:31 2026 as: nmap -sn -n -oX tests/fixtures/real_down_host.xml -&#45;max-retries 0 -&#45;host-timeout 3s 192.0.2.77 -->
+<nmaprun scanner="nmap" args="nmap -sn -n -oX tests/fixtures/real_down_host.xml -&#45;max-retries 0 -&#45;host-timeout 3s 192.0.2.77" start="1793860951" startstr="Thu Nov  5 06:42:31 2026" version="7.94SVN" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<runstats><finished time="1793860951" timestr="Thu Nov  5 06:42:31 2026" summary="Nmap done at Thu Nov  5 06:42:31 2026; 1 IP address (0 hosts up) scanned in 0.22 seconds" elapsed="0.22" exit="success"/><hosts up="0" down="1" total="1"/>
+</runstats>
+</nmaprun>
