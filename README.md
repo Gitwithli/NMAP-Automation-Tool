@@ -15,7 +15,7 @@ nmap --version
 
 
 ```bash
-git clone https://github.com/Kali-Nima/NMAP-Automation-Tool nmapfloü
+git clone https://github.com/Kali-Nima/NMAP-Automation-Tool
 cd nmapflow
 sudo python3 nmapflow.py          # root enables SYN/ACK/UDP scans, OS detection, traceroute
 python3 nmapflow.py               # works without root; root-only scans are offered but can be skipped
