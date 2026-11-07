@@ -13,9 +13,9 @@ python3 --version                                         # must be 3.10 or newe
 nmap --version
 ```
 
-No `pip install` is needed. Copy (or unzip) the `nmapflow/` folder anywhere, then:
 
 ```bash
+git clone https://github.com/Kali-Nima/NMAP-Automation-Tool nmapfloü
 cd nmapflow
 sudo python3 nmapflow.py          # root enables SYN/ACK/UDP scans, OS detection, traceroute
 python3 nmapflow.py               # works without root; root-only scans are offered but can be skipped
